@@ -1,0 +1,23 @@
+Exercícios 
+1 - Desenvolva um programa que efetue a leitura de 10 valores para uma matriz A 
+e que esses valores sejam passados para a matriz B acresentando 10 porcento a cada 
+elemento. 
+
+2 - Desenvolva um programa que efetue a leitura de 10 valores para uma matriz A 
+e que esses valores sejam passados para a matriz B verificando se o índice for par 
+deverá ser multiplicado por 5 e se for impar, somado a 5. 
+
+3 - Desenvolva um programa que efetue a leitura de 10 elementos para uma matriz 
+A e apresente no final a somatória dos elementos ímpares. 
+
+4 - Ler duas matrizes A e B com 20 elementos. Construir uma matriz C, sendo esta 
+formada pelos elementos de A subtratídos dos elementos de B. 
+
+5 - Ler duas matrizes A e B de 4 elementos cada. Construir uma matriz C, sendo 
+esta a junção das duas outras matrizes. Desta forma, C deverá Ter o dobro de 
+elementos, ou seja, 8. 
+
+6 - Ler 20 elementos de uma matriz A e construir uma matriz B de mesa dimensão 
+com os mesmos elementos de A, sendo que estes deverão estar invertidos, ou seja, o 
+primeiro elemento de A passa a ser o último de B, o segundo elemento de A passa a ser 
+o penúltimo de b e assim por diante.

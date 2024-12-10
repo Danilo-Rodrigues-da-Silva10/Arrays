@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício6</title>
+</head>
+<body>
+    
+    <!--
+   6 - Ler 20 elementos de uma matriz A e construir uma matriz B de mesma dimensão 
+    com os mesmos elementos de A, sendo que estes deverão estar invertidos, ou seja, o 
+    primeiro elemento de A passa a ser o último de B, o segundo elemento de A passa a ser 
+    o penúltimo de b e assim por diante.
+    -->
+
+    <script>
+    let MatrizA = [];
+    let MatrizB = [];
+    
+    for (let i = 0; i < 20; i++) {
+     valorA = parseFloat(prompt("Digite o " + (i + 1) + "° valor para a matriz A:"));
+        MatrizA.push(valorA);
+    }
+
+    for (let i = 0; i < 20; i++) {
+        MatrizB[i] = MatrizA[19 - i];
+    }
+
+    document.write(MatrizB + "<br>");
+   
+</script>
+
+
+    </script>
+</body>
+</html>

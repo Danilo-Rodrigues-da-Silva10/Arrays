@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício3</title>
+</head>
+<body>
+    
+    <!--
+    3 - Desenvolva um programa que efetue a leitura de 10 elementos para uma matriz 
+    A e apresente no final a somatória dos elementos ímpares.
+    -->
+    
+<script>
+    MatrizA = [];
+    SomaImpares = 0;
+
+    for (let i = 0; i < 10; i++) {
+        valor = parseFloat(prompt("Digite o " + (i + 1) + "° valor para a matriz A:"));
+        
+        MatrizA.push(valor);
+    }
+
+    
+    for (let i = 0; i < 10; i++) {
+        if (MatrizA[i] % 2 !== 0) {  
+            SomaImpares += MatrizA[i];  
+        }
+    }
+
+    document.write("A somatória dos elementos ímpares é: " + SomaImpares);
+
+
+
+
+
+
+</script>
+</body>
+</html>

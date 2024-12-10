@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício1</title>
+</head>
+<body>
+
+    <!--
+    1 - Desenvolva um programa que efetue a leitura de 10 valores para uma matriz A 
+    e que esses valores sejam passados para a matriz B acresentando 10 porcento a cada 
+    elemento.
+    -->
+
+    <script>
+ 
+     MatrizA = [];
+     MatrizB = [];
+        
+     for (let i = 0; i < 10; i++) {
+     valor = parseFloat(prompt("Digite o " + (i+1) +  "° valor para a matriz A:"));
+     MatrizA.push(valor);
+     ValorComAumento = (valor * 1.1).toFixed(0);  // 10% de aumento
+     MatrizB.push(ValorComAumento);
+     } 
+   
+     document.write(MatrizB);
+    
+    </script>
+
+</body>
+</html>
